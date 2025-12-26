@@ -10,7 +10,7 @@ import { Mail, Lock, Github } from "lucide-react";
 
 // Firebase Imports
 import { signInWithPopup } from "firebase/auth";
-import { auth, googleProvider, githubProvider } from "@/firebase"; 
+import { auth, githubProvider, googleProvider } from "@/firebase";
 
 export default function Login() {
   const [data, setData] = useState({ email: "", password: "" });
