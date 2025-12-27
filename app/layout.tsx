@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   description: "Book your college admission today.",
 };
 
-
 export default function RootLayout({
   children,
 }: {
