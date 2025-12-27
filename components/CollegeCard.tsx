@@ -12,6 +12,8 @@ interface CollegeProps {
   researchCount: number;
 }
 
+
+
 export default function CollegeCard({ data }: { data: CollegeProps }) {
   return (
     <div className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
