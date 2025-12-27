@@ -133,6 +133,7 @@ export default function Home() {
                     : 'col-span-1 h-[120px] md:h-[190px]'
                 }`}
               >
+                
                 <Image 
                   src={src} 
                   alt={`Gallery Image ${index + 1}`}
