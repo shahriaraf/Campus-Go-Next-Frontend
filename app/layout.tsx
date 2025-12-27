@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Campus Go - Find Your Future",
+  title: "Campus Go",
   description: "Book your college admission today.",
 };
 
